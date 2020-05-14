@@ -11,7 +11,6 @@
     "sirv-cli": "^0.3.1"
   },
   "dependencies": {
-    "bootstrap": "4.5.0",
     "interactjs": "1.9.14",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
