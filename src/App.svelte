@@ -17,6 +17,8 @@
   <h2>Hell world</h2>
   <div class='alert alert-success'>
     <h4>Yes, it worked!</h4>
+
+    <i class="fas fa-power-off"></i>
   </div>
 
 	<Button />

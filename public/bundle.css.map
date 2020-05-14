@@ -6,7 +6,7 @@
     "../Button.svelte"
   ],
   "sourcesContent": [
-    "<script>\n\timport Button from \"./Button.svelte\";\n  import interact from 'interactjs';\n</script>\n\n<style>\n  main {\n    font-family: sans-serif;\n    text-align: center;\n  }\n</style>\n\n<main class='container'>\n\t<h1>Hello CodeSandbox</h1>\n\t<h2>Start editing to see some magic happen!</h2>\n\n  <h2>Hell world</h2>\n  <div class='alert alert-success'>\n    <h4>Yes, it worked!</h4>\n  </div>\n\n\t<Button />\n</main>",
+    "<script>\n\timport Button from \"./Button.svelte\";\n  import interact from 'interactjs';\n</script>\n\n<style>\n  main {\n    font-family: sans-serif;\n    text-align: center;\n  }\n</style>\n\n<main class='container'>\n\t<h1>Hello CodeSandbox</h1>\n\t<h2>Start editing to see some magic happen!</h2>\n\n  <h2>Hell world</h2>\n  <div class='alert alert-success'>\n    <h4>Yes, it worked!</h4>\n\n    <i class=\"fas fa-power-off\"></i>\n  </div>\n\n\t<Button />\n</main>",
     "<script>\n\tlet count = 0;\n\n\tfunction handleClick() {\n\t  count += 1;\n\t}\n</script>\n\n<style>\n\tbutton {\n\t  background: #ff3e00;\n\t  color: white;\n\t  border: none;\n\t  padding: 8px 12px;\n\t  border-radius: 2px;\n\t}\n</style>\n\n<button on:click={handleClick}>\n  Clicked {count} {count === 1 ? 'time' : 'times'}\n</button>"
   ],
   "names": [],

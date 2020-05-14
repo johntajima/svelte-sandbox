@@ -464,6 +464,8 @@ var app = (function () {
     	let div;
     	let h4;
     	let t7;
+    	let i;
+    	let t8;
     	let current;
     	const button = new Button({ $$inline: true });
 
@@ -483,11 +485,15 @@ var app = (function () {
     			h4 = element("h4");
     			h4.textContent = "Yes, it worked!";
     			t7 = space();
+    			i = element("i");
+    			t8 = space();
     			create_component(button.$$.fragment);
     			add_location(h1, file$1, 13, 1, 206);
     			add_location(h20, file$1, 14, 1, 234);
     			add_location(h21, file$1, 16, 2, 286);
     			add_location(h4, file$1, 18, 4, 346);
+    			attr_dev(i, "class", "fas fa-power-off");
+    			add_location(i, file$1, 20, 4, 376);
     			attr_dev(div, "class", "alert alert-success");
     			add_location(div, file$1, 17, 2, 308);
     			attr_dev(main, "class", "container svelte-1na4wt1");
@@ -506,7 +512,9 @@ var app = (function () {
     			append_dev(main, t5);
     			append_dev(main, div);
     			append_dev(div, h4);
-    			append_dev(main, t7);
+    			append_dev(div, t7);
+    			append_dev(div, i);
+    			append_dev(main, t8);
     			mount_component(button, main, null);
     			current = true;
     		},
